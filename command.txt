@@ -1,0 +1,3 @@
+docker run --name postgesql-container -p 5432:5432 -e POSTGES_USER=shahbaj -e POSTGRES_PASSWORD=taj123 -e POSTGRES_DB=enurondb -v enuron-lms:/var/lib/postgresql/data postgres
+
+db password: 6y8cuPSLibk5kxkT
